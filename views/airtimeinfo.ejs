@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body id="body">
+  <%- include('partials/navbar') -%>
+  <div class="container">
+   
+       <div class="box"> 
+         <h1 id="fill"> Your information </h1>
+     <form action="" method="POST">
+        <label > Phone number :</label>
+        <input  id="input" type="text" class="form-control" name="phonenumber" placeholder="Phone number" required>
+       <label > Fullname : </label>
+        <input id="input" class="form-control" type="text" name="fullname" placeholder="Your name here" required >
+       
+        <label > Email:</label>
+        <input id="input" type="email" class="form-control" name="email" placeholder="Email here" required>
+        <label > Amount :</label>
+        <input id="input" type="number" class="form-control" name="amount" placeholder="amount" required>
+        <button class="btn btn-dark" id="continue"> Continue </button>
+     </form> 
+       </div>
+  </div>
+</body>
+</html>
