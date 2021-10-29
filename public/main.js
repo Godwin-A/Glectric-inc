@@ -7,7 +7,7 @@ function payNow(e){
   e.preventDefault();
 
 FlutterwaveCheckout({
- public_key : 'FLWPUBK_TEST-8e6858868683e5fb3e1eda62f8b77765-X',
+ public_key : '*********************',
  tx_ref: 'RX1',
      amount: document.getElementById('amount').value,
      currency: 'NGN', 
